@@ -256,7 +256,7 @@ img {
 
 .basics-list {
   flex-direction: column;
-  gap: 72px 24px;
+  gap: 72px;
 }
 
 .basics-list-icon {
