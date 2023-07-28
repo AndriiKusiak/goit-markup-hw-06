@@ -59,7 +59,6 @@ img {
 
 .list {
   display: flex;
-  flex-direction: column;
   padding-left: 0;
   margin: 0 auto;
   list-style: none;
@@ -256,11 +255,18 @@ img {
 }
 
 .basics-list {
-  gap: 72px;
+  flex-direction: column;
+  gap: 72px 24px;
 }
 
 .basics-list-icon {
   display: none;
+}
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -273,8 +279,6 @@ img {
   }
 
   .basics-list {
-    gap: 24px;
-    row-gap: 72px;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -283,6 +287,7 @@ img {
     display: none;
   }
   .basics-item {
+    gap: 72px 24px;
     width: calc((100% - 24px) / 2);
   }
 }
