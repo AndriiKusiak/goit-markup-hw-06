@@ -37,7 +37,6 @@ body {
 
 .container {
   width: 100%;
-  max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -251,8 +250,12 @@ img {
 }
 
 .basics-list {
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 72px;
+}
+
+.basics-item {
+  width: 100%;
 }
 
 .basics-list-icon {
@@ -276,8 +279,6 @@ img {
 
   .basics-list {
     gap: 72px 24px;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 
   .basics-icon-container {
@@ -318,8 +319,6 @@ img {
 
   .basics-icon-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
@@ -328,6 +327,30 @@ img {
     width: 264px;
     height: 112px;
   }
+  .doing-section {
+    display: flex;
+    padding-bottom: 120px;
+  }
+
+  .doing-title {
+    color: var(--navyblue-color);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 72px;
+  }
+
+  .doing-list {
+    display: flex;
+    gap: 24px;
+  }
+  .doing-item {
+    width: calc((100% - 24px * 2) / 3);
+  }
 }
 
 /* ----------- END BASICS------------- */
@@ -335,6 +358,7 @@ img {
 /* --------DOUING------------ */
 
 .doing-section {
+  display: none;
   padding-bottom: 120px;
 }
 
@@ -362,7 +386,8 @@ img {
 /* --------TEAM---------- */
 
 .team-section {
-  padding: 120px 0;
+  padding: 96px 0;
+  /* padding: 120px 0; */
   background-color: var(--cloud-color);
 }
 .team-title {
@@ -377,25 +402,15 @@ img {
 }
 .team-list-img {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
 }
 
-/* .four-container-icons {
-  height: 40px;
-  width: 40px;
-  gap: 24px;
-  border-radius: 50%;
-  border: 1px solid var(--iris-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--iris-color);
-} */
-
 .team-list-img-item {
   background-color: var(--white-color);
-  width: calc((100% - 72px) / 4);
+  width: 100%;
+  /* width: calc((100% - 72px) / 4); */
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
