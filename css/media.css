@@ -42,6 +42,10 @@
     gap: 72px 24px;
   }
 
+  .customers-link {
+    width: 168px;
+  }
+
   .customers-item {
     width: calc((100% - 48px) / 3);
   }
