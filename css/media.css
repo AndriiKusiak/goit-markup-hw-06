@@ -175,7 +175,17 @@
     padding: 100px 0;
   }
 
+  .footer-container {
+    min-width: 1158px;
+    justify-content: center;
+    gap: 0;
+  }
+
   .footer-logo-container {
     margin-right: 120px;
+  }
+
+  .footer-social-container {
+    margin-right: 80px;
   }
 }
