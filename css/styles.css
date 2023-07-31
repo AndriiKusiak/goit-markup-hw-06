@@ -198,19 +198,14 @@ img {
 }
 
 .hero-title {
-  width: 320px;
-  /* max-width: 496px; */
+  max-width: 320px;
   color: var(--white-color);
-  font-style: 36px;
-  /* font-size: 56px; */
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  /* line-height: 1.07; */
   letter-spacing: 0.02em;
-  /* letter-spacing: 1.12px; */
   text-align: center;
   margin: 0 auto 72px;
-  /* margin: 0 auto 48px; */
 }
 
 .order-button {
@@ -220,7 +215,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background: var(--iris-color);
   cursor: pointer;
   margin: 0 auto;
