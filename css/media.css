@@ -101,6 +101,18 @@
       url(../images/dark-bg-tabl.jpg);
   }
 
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg-tabl-2x.jpg);
+  }
+
   .hero-title {
     max-width: 496px;
     color: var(--white-color);
@@ -130,6 +142,7 @@
     font-weight: 500;
     line-height: 1.2;
   }
+
   .basics-list {
     gap: 24px;
   }
@@ -152,6 +165,7 @@
     width: 264px;
     height: 112px;
   }
+
   .doing-section {
     display: flex;
   }
@@ -172,6 +186,7 @@
     display: flex;
     gap: 24px;
   }
+
   .doing-item {
     width: calc((100% - 24px * 2) / 3);
   }
@@ -223,6 +238,19 @@
       ),
       url(../images/people-office-new.jpg);
   }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-2x.jpg);
+  }
+}
 
   .hero-title {
     margin: 0 auto 48px;
