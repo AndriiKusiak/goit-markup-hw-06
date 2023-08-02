@@ -98,8 +98,9 @@ img {
 }
 
 .header-list {
-  display: flex;
-  gap: 40px;
+  display: none;
+  /* display: flex;
+  gap: 40px; */
 }
 
 .header-navbar {
@@ -155,8 +156,9 @@ img {
 }
 
 .header-addr-list {
-  display: flex;
-  gap: 40px;
+  display: none;
+  /* display: flex; */
+  /* gap: 40px; */
 }
 
 .header-addr-link {
