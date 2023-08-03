@@ -12,6 +12,10 @@
   .mob-list {
     gap: 24px;
   }
+
+  .modal {
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
