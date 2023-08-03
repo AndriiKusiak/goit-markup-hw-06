@@ -2,6 +2,10 @@
   .footer-input {
     max-width: 92vw;
   }
+
+  .modal {
+    max-width: 92%;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 427px) {
@@ -11,10 +15,6 @@
   }
   .mob-list {
     gap: 24px;
-  }
-
-  .modal {
-    width: 100%;
   }
 }
 
