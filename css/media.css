@@ -212,6 +212,8 @@
 @media (max-width: 1157px) {
   .header-addr-list {
     flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .header-list {
   }
